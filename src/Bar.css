@@ -1,0 +1,35 @@
+.bar{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 70%;
+    overflow-wrap: wrap;
+    padding-top: 10px;
+    border-radius: 0 0   0  19px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    /* width: 30%; */
+    height: 25px;
+    padding: 5px;
+    
+}
+
+ input:focus{
+    outline: none;
+}
+.recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+
+}
