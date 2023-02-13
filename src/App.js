@@ -86,16 +86,16 @@ function App() {
     <div className="header">
         <div className="bar">
           <div className="recherche">
-            {/* <StandaloneSearchBox> */}
+            <StandaloneSearchBox>
               <input 
               ref={origineRef}
               type="text" placeholder='origin' />
-            {/* </StandaloneSearchBox> */}
-            {/* <StandaloneSearchBox> */}
+            </StandaloneSearchBox>
+            <StandaloneSearchBox>
               <input
                ref={destinationRef}
               type="text" placeholder='destination' />
-            {/* </StandaloneSearchBox> */}
+            </StandaloneSearchBox>
             <Button
               onClick={calculateRoute}
             variant='contained'> direction </Button>
@@ -110,7 +110,9 @@ function App() {
           </div>
         </div>
           <div className="weather">
-            35 C
+
+            {/* this bloc will be used soon */}
+            35° C
           </div>
     </div>
       <div className='feed'>
