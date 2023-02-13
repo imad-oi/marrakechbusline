@@ -81,42 +81,6 @@ function App() {
   }
   getLocation() ;
 
-
-  // this block is just for testing some stuff
-  // const directionsService = new google.maps.DirectionsService();
-  // const directionsRenderer = new google.maps.DirectionsRenderer();
-  // function initMap() {
-  //   var chicago = new google.maps.LatLng(41.850033, -87.6500523);
-  //   var mapOptions = {
-  //     zoom:7,
-  //     center: chicago
-  //   }
-  //   var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-  //   directionsRenderer.setMap(map);
-  // }
-  // initMap()
-
-
-  // this block is to calculate route using input
-  // function calcRoute() {
-  //   var start = origineRef.current.value ; 
-  //   // document.getElementById('start').value;
-  //   var end = destinationRef.current.value ;
-  //   console.log(start, end)
-  //   // document.getElementById('end').value;
-  //   var request = {
-  //     origin: start,
-  //     destination: end,
-  //     travelMode: 'DRIVING'
-  //   };
-  //   directionsService.route(request, function(result, status) {
-  //     if (status == 'OK') {
-  //       directionsRenderer.setDirections(result);
-  //     }
-  //   });
-  // }
-
-
   return (
     <div className='App'>
     <div className="header">
